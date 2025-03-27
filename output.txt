@@ -1,0 +1,15 @@
+PS C:\Projects\Cognifyz> cd "c:\Projects\Cognifyz\Level2\Task2-passwordStrengthChecker\" ; if ($?) { javac PasswordStrengthChecker.java } ; if ($?) { java PasswordStrengthChecker }
+Enter a password: nameisnaamADMIN@12345
+
+Password Analysis:
+[WARNING] Repeated characters: Avoid repeating characters multiple times.
+[WARNING] Common password: Your password contains a frequently used pattern (e.g., 'password', '123456').
+
+Password Strength: 68% (Medium)
+PS C:\Projects\Cognifyz\Level2\Task2-passwordStrengthChecker> cd "c:\Projects\Cognifyz\Level2\Task2-passwordStrengthChecker\" ; if ($?) { javac PasswordStrengthChecker.java } ; if ($?) { java PasswordStrengthChecker }
+Enter a password: qwertrASD@#$98876
+
+Password Analysis:
+
+Password Strength: 100% (Strong)
+PS C:\Projects\Cognifyz\Level2\Task2-passwordStrengthChecker> 
